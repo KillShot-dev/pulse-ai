@@ -1,0 +1,103 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = { };
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB00000100000000000000CC /* PulseAIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000100000000000000BB /* PulseAIApp.swift */; };
+		BB00000200000000000000CC /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000200000000000000BB /* Models.swift */; };
+		BB00000300000000000000CC /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000300000000000000BB /* Theme.swift */; };
+		BB00000400000000000000CC /* ProcessEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000400000000000000BB /* ProcessEngine.swift */; };
+		BB00000500000000000000CC /* SigningService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000500000000000000BB /* SigningService.swift */; };
+		BB00000600000000000000CC /* SystemMetrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000600000000000000BB /* SystemMetrics.swift */; };
+		BB00000700000000000000CC /* AIEngines.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000700000000000000BB /* AIEngines.swift */; };
+		BB00000800000000000000CC /* ModelLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000800000000000000BB /* ModelLibrary.swift */; };
+		BB00000900000000000000CC /* StartupInventory.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000900000000000000BB /* StartupInventory.swift */; };
+		BB00000A00000000000000CC /* LicenseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000A00000000000000BB /* LicenseService.swift */; };
+		BB00000B00000000000000CC /* HistoryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000B00000000000000BB /* HistoryStore.swift */; };
+		BB00000C00000000000000CC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000C00000000000000BB /* ContentView.swift */; };
+		BB00000D00000000000000CC /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000D00000000000000BB /* DashboardView.swift */; };
+		BB00000E00000000000000CC /* ProcessViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000E00000000000000BB /* ProcessViews.swift */; };
+		BB00000F00000000000000CC /* AICockpitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000F00000000000000BB /* AICockpitView.swift */; };
+		BB00001000000000000000CC /* ModelLibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00001000000000000000BB /* ModelLibraryView.swift */; };
+		BB00001100000000000000CC /* StartupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00001100000000000000BB /* StartupView.swift */; };
+		BB00001200000000000000CC /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00001200000000000000BB /* SettingsView.swift */; };
+		BB00001300000000000000CC /* MenuBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00001300000000000000BB /* MenuBarView.swift */; };
+		BB00009900000000000000CC /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AA00009900000000000000BB /* Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA00000100000000000000BB /* PulseAIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulseAIApp.swift; sourceTree = "<group>"; };
+		AA00000200000000000000BB /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		AA00000300000000000000BB /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		AA00000400000000000000BB /* ProcessEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessEngine.swift; sourceTree = "<group>"; };
+		AA00000500000000000000BB /* SigningService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigningService.swift; sourceTree = "<group>"; };
+		AA00000600000000000000BB /* SystemMetrics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemMetrics.swift; sourceTree = "<group>"; };
+		AA00000700000000000000BB /* AIEngines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIEngines.swift; sourceTree = "<group>"; };
+		AA00000800000000000000BB /* ModelLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelLibrary.swift; sourceTree = "<group>"; };
+		AA00000900000000000000BB /* StartupInventory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartupInventory.swift; sourceTree = "<group>"; };
+		AA00000A00000000000000BB /* LicenseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LicenseService.swift; sourceTree = "<group>"; };
+		AA00000B00000000000000BB /* HistoryStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryStore.swift; sourceTree = "<group>"; };
+		AA00000C00000000000000BB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AA00000D00000000000000BB /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		AA00000E00000000000000BB /* ProcessViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessViews.swift; sourceTree = "<group>"; };
+		AA00000F00000000000000BB /* AICockpitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AICockpitView.swift; sourceTree = "<group>"; };
+		AA00001000000000000000BB /* ModelLibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelLibraryView.swift; sourceTree = "<group>"; };
+		AA00001100000000000000BB /* StartupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartupView.swift; sourceTree = "<group>"; };
+		AA00001200000000000000BB /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		AA00001300000000000000BB /* MenuBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarView.swift; sourceTree = "<group>"; };
+		AA00009800000000000000BB /* PulseAI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PulseAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA00009900000000000000BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA00010000000000000000BB /* PulseAI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PulseAI.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC00000100000000000000DD /* Frameworks */ = { isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = ( ); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD00000100000000000000EE /* PulseAI */ = { isa = PBXGroup; children = ( AA00000100000000000000BB /* PulseAIApp.swift */, DD00000200000000000000EE /* Models */, DD00000300000000000000EE /* Services */, DD00000400000000000000EE /* Views */, DD00000500000000000000EE /* Resources */, AA00010000000000000000BB /* PulseAI.entitlements */, EE00000100000000000000FF /* Products */, ); sourceTree = "<group>"; };
+		DD00000200000000000000EE /* Models */ = { isa = PBXGroup; children = ( AA00000200000000000000BB /* Models.swift */, AA00000300000000000000BB /* Theme.swift */, ); path = Models; sourceTree = "<group>"; };
+		DD00000300000000000000EE /* Services */ = { isa = PBXGroup; children = ( AA00000400000000000000BB /* ProcessEngine.swift */, AA00000500000000000000BB /* SigningService.swift */, AA00000600000000000000BB /* SystemMetrics.swift */, AA00000700000000000000BB /* AIEngines.swift */, AA00000800000000000000BB /* ModelLibrary.swift */, AA00000900000000000000BB /* StartupInventory.swift */, AA00000A00000000000000BB /* LicenseService.swift */, AA00000B00000000000000BB /* HistoryStore.swift */, ); path = Services; sourceTree = "<group>"; };
+		DD00000400000000000000EE /* Views */ = { isa = PBXGroup; children = ( AA00000C00000000000000BB /* ContentView.swift */, AA00000D00000000000000BB /* DashboardView.swift */, AA00000E00000000000000BB /* ProcessViews.swift */, AA00000F00000000000000BB /* AICockpitView.swift */, AA00001000000000000000BB /* ModelLibraryView.swift */, AA00001100000000000000BB /* StartupView.swift */, AA00001200000000000000BB /* SettingsView.swift */, AA00001300000000000000BB /* MenuBarView.swift */, ); path = Views; sourceTree = "<group>"; };
+		DD00000500000000000000EE /* Resources */ = { isa = PBXGroup; children = ( AA00009900000000000000BB /* Info.plist */, ); path = Resources; sourceTree = "<group>"; };
+		EE00000100000000000000FF /* Products */ = { isa = PBXGroup; children = ( AA00009800000000000000BB /* PulseAI.app */, ); sourceTree = "<group>"; };
+		FF00000100000000000000AA /* Main */ = { isa = PBXGroup; children = ( DD00000100000000000000EE /* PulseAI */, EE00000100000000000000FF /* Products */, ); sourceTree = "<group>"; };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB00000100000000000000CD /* PulseAI */ = { isa = PBXNativeTarget; buildConfigurationList = BC00000100000000000000DE /* Build configuration list for PBXNativeTarget "PulseAI" */; buildPhases = ( CC00001000000000000000DD /* Guard */, CC00000200000000000000DD /* Sources */, CC00000100000000000000DD /* Frameworks */, CC00000300000000000000DD /* Resources */, ); buildRules = ( ); dependencies = ( ); name = PulseAI; productName = PulseAI; productReference = AA00009800000000000000BB /* PulseAI.app */; productType = "com.apple.product-type.application"; };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC00000100000000000000CD /* Project object */ = { isa = PBXProject; attributes = { BuildIndependentTargetsInParallel = 1; LastSwiftUpdateCheck = 1500; LastUpgradeCheck = 1500; TargetAttributes = { AB00000100000000000000CD = { CreatedOnToolsVersion = 15.0; }; }; }; buildConfigurationList = BC00000200000000000000DE /* Build configuration list for PBXProject "PulseAI" */; compatibilityVersion = "Xcode 14.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = ( en, Base, ); mainGroup = FF00000100000000000000AA; productRefGroup = EE00000100000000000000FF /* Products */; projectDirPath = ""; projectRoot = ""; targets = ( AB00000100000000000000CD /* PulseAI */, ); };
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC00000300000000000000DD /* Resources */ = { isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = ( BB00009900000000000000CC /* Info.plist in Resources */, ); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CC00001000000000000000DD /* Guard */ = { isa = PBXShellScriptBuildPhase; buildActionMask = 2147483647; files = ( ); inputFileListPaths = ( ); inputPaths = ( ); name = Guard; outputFileListPaths = ( ); outputPaths = ( ); runOnlyForDeploymentPostprocessing = 0; shellPath = /bin/sh; shellScript = "for f in \"${SRCROOT}/PulseAI.entitlements\" \"${SRCROOT}/Resources/Info.plist\"; do if [ ! -f \"$f\" ]; then echo \"error: missing required file: $f\" >&2; exit 1; fi; done\n"; };
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC00000200000000000000DD /* Sources */ = { isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = ( BB00000100000000000000CC /* PulseAIApp.swift in Sources */, BB00000200000000000000CC /* Models.swift in Sources */, BB00000300000000000000CC /* Theme.swift in Sources */, BB00000400000000000000CC /* ProcessEngine.swift in Sources */, BB00000500000000000000CC /* SigningService.swift in Sources */, BB00000600000000000000CC /* SystemMetrics.swift in Sources */, BB00000700000000000000CC /* AIEngines.swift in Sources */, BB00000800000000000000CC /* ModelLibrary.swift in Sources */, BB00000900000000000000CC /* StartupInventory.swift in Sources */, BB00000A00000000000000CC /* LicenseService.swift in Sources */, BB00000B00000000000000CC /* HistoryStore.swift in Sources */, BB00000C00000000000000CC /* ContentView.swift in Sources */, BB00000D00000000000000CC /* DashboardView.swift in Sources */, BB00000E00000000000000CC /* ProcessViews.swift in Sources */, BB00000F00000000000000CC /* AICockpitView.swift in Sources */, BB00001000000000000000CC /* ModelLibraryView.swift in Sources */, BB00001100000000000000CC /* StartupView.swift in Sources */, BB00001200000000000000CC /* SettingsView.swift in Sources */, BB00001300000000000000CC /* MenuBarView.swift in Sources */, ); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BD00000100000000000000DE /* Debug */ = { isa = XCBuildConfiguration; buildSettings = { ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ANALYZER_NONNULL = YES; CLANG_ENABLE_MODULES = YES; CLANG_ENABLE_OBJC_ARC = YES; COPY_PHASE_STRIP = NO; ENABLE_STRICT_OBJC_MSGSEND = YES; GCC_C_LANGUAGE_STANDARD = gnu17; MACOSX_DEPLOYMENT_TARGET = 14.0; MTL_FAST_MATH = YES; SWIFT_VERSION = 5.0; DEBUG_INFORMATION_FORMAT = dwarf; ENABLE_TESTABILITY = YES; GCC_OPTIMIZATION_LEVEL = 0; GCC_PREPROCESSOR_DEFINITIONS = ( "DEBUG=1", "$(inherited)", ); ONLY_ACTIVE_ARCH = YES; SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG; SWIFT_OPTIMIZATION_LEVEL = "-Onone"; }; name = Debug; };
+		BD00000200000000000000DE /* Release */ = { isa = XCBuildConfiguration; buildSettings = { ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ANALYZER_NONNULL = YES; CLANG_ENABLE_MODULES = YES; CLANG_ENABLE_OBJC_ARC = YES; COPY_PHASE_STRIP = NO; ENABLE_STRICT_OBJC_MSGSEND = YES; GCC_C_LANGUAGE_STANDARD = gnu17; MACOSX_DEPLOYMENT_TARGET = 14.0; MTL_FAST_MATH = YES; SWIFT_VERSION = 5.0; DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym"; ENABLE_NS_ASSERTIONS = NO; SWIFT_COMPILATION_MODE = wholemodule; SWIFT_OPTIMIZATION_LEVEL = "-O"; VALIDATE_PRODUCT = YES; }; name = Release; };
+		BD00000300000000000000DE /* Debug */ = { isa = XCBuildConfiguration; buildSettings = { ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; CODE_SIGN_ENTITLEMENTS = PulseAI.entitlements; CODE_SIGN_STYLE = Automatic; COMBINE_HIDPI_IMAGES = YES; CURRENT_PROJECT_VERSION = 1; ENABLE_HARDENED_RUNTIME = YES; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = Resources/Info.plist; INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities"; LD_RUNPATH_SEARCH_PATHS = ( "$(inherited)", "@executable_path/../Frameworks", ); MACOSX_DEPLOYMENT_TARGET = 14.0; MARKETING_VERSION = 1.0; PRODUCT_BUNDLE_IDENTIFIER = com.metaphasicgroup.pulseai; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_EMIT_LOC_STRINGS = YES; SWIFT_VERSION = 5.0; }; name = Debug; };
+		BD00000400000000000000DE /* Release */ = { isa = XCBuildConfiguration; buildSettings = { ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; CODE_SIGN_ENTITLEMENTS = PulseAI.entitlements; CODE_SIGN_STYLE = Automatic; COMBINE_HIDPI_IMAGES = YES; CURRENT_PROJECT_VERSION = 1; ENABLE_HARDENED_RUNTIME = YES; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = Resources/Info.plist; INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities"; LD_RUNPATH_SEARCH_PATHS = ( "$(inherited)", "@executable_path/../Frameworks", ); MACOSX_DEPLOYMENT_TARGET = 14.0; MARKETING_VERSION = 1.0; PRODUCT_BUNDLE_IDENTIFIER = com.metaphasicgroup.pulseai; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_EMIT_LOC_STRINGS = YES; SWIFT_VERSION = 5.0; }; name = Release; };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC00000100000000000000DE /* Build configuration list for PBXNativeTarget "PulseAI" */ = { isa = XCConfigurationList; buildConfigurations = ( BD00000300000000000000DE /* Debug */, BD00000400000000000000DE /* Release */, ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		BC00000200000000000000DE /* Build configuration list for PBXProject "PulseAI" */ = { isa = XCConfigurationList; buildConfigurations = ( BD00000100000000000000DE /* Debug */, BD00000200000000000000DE /* Release */, ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+	};
+	rootObject = AC00000100000000000000CD /* Project object */;
+}
